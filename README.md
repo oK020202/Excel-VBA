@@ -1,33 +1,34 @@
-# Excel VBA Macro for Adding Katakana Furigana to Name Lists
+Excel VBAマクロ：名簿の名前にカタカナのふりがなを自動付与
+概要
+このExcelマクロは、名簿に記載された漢字氏名に対して、カタカナのふりがな（読み仮名）を自動生成し、指定されたふりがな列に挿入します。Excelファイル内のボタンをクリックするだけで、簡単にふりがなが追加されます。
 
-## Overview
+特長
+名簿内の漢字氏名にカタカナふりがなを自動で付与します。
 
-This macro automatically generates Katakana furigana (phonetic readings) for Kanji names in a roster (名簿) created in Excel using VBA. By clicking a button in the Excel file, furigana is generated and inserted into the designated furigana column.
+操作は簡単：Excelを開いてボタンをクリックするだけ。
 
-## Features
+ふりがなは別の列に表示されるため、参照や並び替えが容易です。
 
-- Automatically adds Katakana furigana to Kanji names in your Excel roster.
-- Simple operation: just open Excel and click the provided button.
-- Furigana is displayed in a separate column for easy reference and sorting.
+使用方法
+マクロが含まれたExcelファイルを開きます。
 
-## How to Use
+名簿に「漢字氏名の列」と「ふりがな列」があることを確認してください。
 
-1. Open the Excel file containing the macro.
-2. Ensure your roster has a column for Kanji names and a separate column designated for furigana.
-3. Click the button provided in the Excel sheet.
-4. The macro will process the list and automatically fill in the furigana column with Katakana readings for each Kanji name.
+シート内のボタンをクリックします。
 
-## Requirements
+マクロが自動的に処理を行い、ふりがな列にカタカナの読みを挿入します。
 
-- Microsoft Excel with VBA enabled.
-- Appropriate macro security settings to allow macro execution.
+必要環境
+VBAが有効になっているMicrosoft Excel
 
-## Notes
+マクロの実行を許可するセキュリティ設定
 
-- This macro is designed for Japanese Kanji names.
-- The accuracy of generated furigana may vary depending on the complexity of the names.
-- Please double-check the results and manually correct any discrepancies if needed.
+注意事項
+本マクロは日本語の漢字氏名を対象としています。
 
-## License
+氏名の複雑さにより、ふりがなの精度には若干の誤差が生じる可能性があります。
 
-Feel free to use and modify this macro for your own purposes.
+必要に応じて、結果を確認し手動で修正してください。
+
+ライセンス
+本マクロは自由に使用・改変いただけます。
